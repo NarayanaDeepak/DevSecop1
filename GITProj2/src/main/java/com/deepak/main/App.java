@@ -1,4 +1,4 @@
-package com.deepak.test;
+package com.deepak.main;
 
 /**
  * Hello world!
