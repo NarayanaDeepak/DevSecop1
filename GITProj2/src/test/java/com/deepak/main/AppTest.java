@@ -36,4 +36,11 @@ public class AppTest {
     	int act=app.Sum(10, -20);
         assertEquals(exp, act);
     }
+    @Test
+    public void testwithsumofZeros() {
+    	App app=new App();
+    	int exp=0;
+    	int act=app.Sum(0, 0);
+        assertEquals(exp, act);
+    }
 }
